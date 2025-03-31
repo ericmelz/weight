@@ -5,4 +5,9 @@ It also contains various visualizations and analyses using matplotlib,
 plotly, and streamlit.
 
 
-
+## Usage
+```
+pip install -r requirements.txt
+cd notebooks
+jupyter notebook
+```
