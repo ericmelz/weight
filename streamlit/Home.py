@@ -1,11 +1,14 @@
 import streamlit as st
 
+from util import hi
+
 st.set_page_config(
     page_title="Eric's Weight",
     page_icon="👋"
 )
 
 st.write("# Eric's Weight 👋")
+st.write(hi())
 
 st.sidebar.success("Select a demo above.")
 
